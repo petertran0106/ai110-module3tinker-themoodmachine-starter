@@ -4,6 +4,10 @@ The Mood Machine is a simple text classifier that begins with a rule based appro
 
 This lab gives you hands on experience with how basic systems work, where they break, and how different modeling choices affect fairness and accuracy. You will edit code, add data, run experiments, and write a short model card reflection.
 
+## Summary
+
+This tinker revolves around analyzing natural language and seeing the ways that AI can be used to parse it and analyze mood. One place where students could struggle is the actual dataset, as students that learned English as a second language or are learning English could interpret certain sentences differently depending on where they come from. They may disagree with the AI in this regard or could disagree with their Tinker breakout room teammates. AI could mislead students in the adding to the dataset.py section. It would suggest new items in SAMPLE_POSTS for me via autofill without me asking, taking away from the point of asking AI for specific, new examples. It also labeled the posts in TRUE_LABELS incorrectly. The posts ought to be one of four categories (positive, negative, mixed, neutral) and would often suggest items, such as "sarcastic" and "ambiguous." This was also as a result of VSCode's autofill. One way I would guide a student without giving them the answer is to first think about what English language rules we would want to implement into our mood analyzer algorithm.
+
 ---
 
 ## Repo Structure
